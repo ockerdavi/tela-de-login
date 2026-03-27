@@ -1,0 +1,189 @@
+*{
+    /* O '*' aplica o CSS para TUDO, é um seletor universal*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    display: flex;
+    /* Ativa o modo "Flexbox". Imagine que você transformou o corpo da página em um ímã que consegue controlar o que está dentro dele.*/
+    justify-content: center;
+    /*Alinha o formulário na horizontal (esquerda/direita). Ele empurra o conteúdo para o meio da largura.*/
+    align-items: center;
+    /*Alinha o formulário na vertical (cima/baixo). Ele empurra o conteúdo para o meio da altura.*/
+    height: 100vh; /*Isso diz que o corpo da página deve ter exatamente a altura da tela inteira do navegador
+    (100% da View Height). Sem isso, o navegador entende que a página tem "altura zero" e o alinhamento vertical não funciona.*/
+}
+.container{
+    box-shadow: 0 4px 12px black;/*Sombra "atras"*/
+    border-radius: 10px; /*Arredonda os cantos*/
+    width: 100%;
+    max-width: 400px;
+    /* É a regra de ouro do tamanho. Ela diz: "Tente ocupar a largura toda da tela (100%), mas pare quando chegar em 400px".
+    Isso evita que o formulário fique esticado e gigante em monitores de computador, mas permite que ele se ajuste direitinho 
+    em telas pequenas de celular.*/
+    padding: 2rem;/*É o espaço interno. Ele cria um "respiro" entre o texto (Login, Usuário, Senha)
+    e a borda da caixa.*/
+    background-color: white;
+}
+h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+.input-box{
+    margin-bottom: 1rem;
+}
+.input-box label{
+    display: block;/* força o rótulo a ser um "bloco" solitário, ocupando a linha inteira. 
+    Isso faz com que o campo de digitar pule obrigatoriamente para a linha de baixo, ficando tudo bem organizado.*/
+    margin-bottom: 0.1rem;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+input[type="email"]{ /*selecionando por atributo*/
+    border-radius: 8px;
+    margin-left: 4.1rem;
+    height: 2rem;
+    padding: 2px;
+    background-color: #3fa5e9;
+    border: none;
+    
+}
+input[type="password"]{
+    border-radius: 8px;
+    margin-left: 4.1rem;
+    height: 2rem;
+    padding: 2px;
+    background-color: #3fa5e9;
+    border: none;
+    
+}
+input::placeholder{
+    color: white;
+    text-align: center;
+}
+.login-btn {
+    width: 60%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    background-color: #3fa5e9;
+    color: white;
+    
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    
+}
+.remember-forgot a{
+    color: black;
+    font-size: 15px;
+
+}
+.register{
+    font-size: 15px;
+}*{
+    /* O '*' aplica o CSS para TUDO, é um seletor universal*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    display: flex;
+    /* Ativa o modo "Flexbox". Imagine que você transformou o corpo da página em um ímã que consegue controlar o que está dentro dele.*/
+    justify-content: center;
+    /*Alinha o formulário na horizontal (esquerda/direita). Ele empurra o conteúdo para o meio da largura.*/
+    align-items: center;
+    /*Alinha o formulário na vertical (cima/baixo). Ele empurra o conteúdo para o meio da altura.*/
+    height: 100vh; /*Isso diz que o corpo da página deve ter exatamente a altura da tela inteira do navegador
+    (100% da View Height). Sem isso, o navegador entende que a página tem "altura zero" e o alinhamento vertical não funciona.*/
+}
+.container{
+    box-shadow: 0 4px 12px black;/*Sombra "atras"*/
+    border-radius: 10px; /*Arredonda os cantos*/
+    width: 100%;
+    max-width: 400px;
+    /* É a regra de ouro do tamanho. Ela diz: "Tente ocupar a largura toda da tela (100%), mas pare quando chegar em 400px".
+    Isso evita que o formulário fique esticado e gigante em monitores de computador, mas permite que ele se ajuste direitinho 
+    em telas pequenas de celular.*/
+    padding: 2rem;/*É o espaço interno. Ele cria um "respiro" entre o texto (Login, Usuário, Senha)
+    e a borda da caixa.*/
+    background-color: white;
+}
+h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+.input-box{
+    margin-bottom: 1rem;
+}
+.input-box label{
+    display: block;/* força o rótulo a ser um "bloco" solitário, ocupando a linha inteira. 
+    Isso faz com que o campo de digitar pule obrigatoriamente para a linha de baixo, ficando tudo bem organizado.*/
+    margin-bottom: 0.1rem;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+input[type="email"]{ /*selecionando por atributo*/
+    border-radius: 8px;
+    margin-left: 4.1rem;
+    height: 2rem;
+    padding: 2px;
+    background-color: #3fa5e9;
+    border: none;
+    
+}
+input[type="password"]{
+    border-radius: 8px;
+    margin-left: 4.1rem;
+    height: 2rem;
+    padding: 2px;
+    background-color: #3fa5e9;
+    border: none;
+    
+}
+input::placeholder{
+    color: white;
+    text-align: center;
+}
+.login-btn {
+    width: 60%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    background-color: #3fa5e9;
+    color: white;
+    
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    
+}
+.remember-forgot a{
+    color: black;
+    font-size: 15px;
+
+}
+.register{
+    font-size: 15px;
+}

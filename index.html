@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Acessar conta</h2>
+        <form class="input-form">
+            <div class="input-box">
+                <!-- Label para ficar escrito antes do input -->
+                <label for="inputmail">Digite seu e-mail:</label>
+                <!-- Atributo 'for' no label, para a id colocada no input -->
+                <!-- Placeholder, para ter texto no fundo do input -->
+                <input type="email" id="inputmail" placeholder="E-mail" required>
+                <!--Required para obrigar a escrever em formato email-->
+            </div>
+            <div class="input-box">
+                <label for="inputpassword">Digite sua senha:</label>
+                <input id="inputpassword" placeholder="Senha" type="password" required>
+            </div>
+            <div class="remember-forgot">
+                <input type="checkbox"> Lembrar de mim
+                <!-- # no href, para o link não levar a lugar nenhum -->
+                <p class="register">Não tem conta?<a href="#"> Cadastre-se</a></p>
+            </div>
+            <button type="submit" class="login-btn">Entrar</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
